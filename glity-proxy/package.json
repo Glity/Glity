@@ -1,16 +1,21 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
+  "name": "Glity",
+  "version": "1.0.0",
+  "description": "Yelp Clone",
+  "author": "Lim E. Nhep, Chris Sorta, Theo Nguyen, Shaquon Kelley",
   "license": "",
   "engines": {
     "node": ">=6.13.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glity/Glity.git"
+  },
+  "homepage": "https://github.com/Glity/Glity#readme",
   "scripts": {
+    "start": "nodemon server/index.js"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
   }
